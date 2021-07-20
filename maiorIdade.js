@@ -1,5 +1,5 @@
 var idade;
-idade = prompt("Digite a sua idade: ");
+idade = prompt("Digite a sua idade:");
 
 
 if (idade >= 18) {
@@ -10,7 +10,9 @@ if (idade >= 18) {
 
 
 if (maiorIdade){
-	document.write("Maior de idade. Pode dirigir! ");
+	document.getElementById('result').src='./img/driving.jpg';
+	document.write("Maior de idade. Pode dirigir!");
 } else {
+	document.getElementById('result').src='./img/crying.jpg';
 	document.write("Menor de idade. :(");
 }
