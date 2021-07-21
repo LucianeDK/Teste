@@ -1,5 +1,5 @@
 var idade;
-idade = prompt("Digite a sua idade:");
+idade = document.getElementsByName(idade);
 
 
 if (idade >= 18) {
